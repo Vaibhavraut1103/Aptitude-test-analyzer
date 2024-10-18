@@ -1,0 +1,127 @@
+.test-container {
+  padding: 20px;
+  text-align: center;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.question{
+  display: flex;
+}
+#time{
+  display:flex;
+  font-size: 18px;
+}
+.test-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.question-container {
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.options-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.option-label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.option-input {
+  margin-right: 10px;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.navigation-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.navigation-button:hover {
+  background-color: #0056b3;
+}
+.option-label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.option-input {
+  display: block; /* Make the radio button display as block */
+  margin-right: 0; /* Remove margin-right */
+}
+.option-label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.option-input {
+  display: block;
+  margin-right: 0;
+}
+
+.option-container {
+  display: flex;
+  flex-direction: column; /* Arrange options vertically */
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.navigation-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.navigation-button:hover {
+  background-color: #0056b3;
+}
+.option-label {
+  display: flex; /* Use flexbox to align items */
+  align-items: center; /* Vertically center items */
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.option-input {
+  margin-right: 10px; /* Adjust margin between checkbox and option value */
+}
+
+.option-container {
+  display: flex;
+  flex-direction: column;
+}
+

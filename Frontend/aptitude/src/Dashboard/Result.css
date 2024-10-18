@@ -1,0 +1,52 @@
+.result-container {
+  padding: 20px;
+}
+
+.result-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.result-summary {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.marks {
+  font-size: 24px;
+}
+
+.question-list {
+  margin-top: 20px;
+}
+
+.question-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.question-item {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.response,
+.correct-answer {
+  font-size: 18px;
+}
+
+.response span,
+.correct-answer span {
+  font-weight: bold;
+  color: #007bff;
+}
